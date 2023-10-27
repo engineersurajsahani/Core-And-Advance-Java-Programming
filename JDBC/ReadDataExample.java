@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class ReadDataExample {
     public static void main(String[] args) {
         // JDBC database URL, username, and password
-        String url = "jdbc:mysql://localhost:3306/your_database"; // Replace with your database name
-        String username = "your_username";
-        String password = "your_password";
+        String url = "jdbc:mysql://localhost:3306/mydatabase?useSSL=false"; // Replace with your database name
+        String username = "root";
+        String password = "Sayali@123";
 
         // JDBC connection object
         Connection connection = null;

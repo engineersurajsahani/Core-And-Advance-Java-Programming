@@ -7,8 +7,8 @@ public class CreateDatabaseExample {
     public static void main(String[] args) {
         // JDBC database URL, username, and password
         String url = "jdbc:mysql://localhost:3306/"; // Change this URL to match your database system
-        String username = "your_username";
-        String password = "your_password";
+        String username = "root";
+        String password = "Sayali@123";
         
         // Database name you want to create
         String dbName = "mydatabase";

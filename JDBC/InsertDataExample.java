@@ -6,9 +6,9 @@ import java.sql.SQLException;
 public class InsertDataExample {
     public static void main(String[] args) {
         // JDBC database URL, username, and password
-        String url = "jdbc:mysql://localhost:3306/your_database"; // Replace with your database name
-        String username = "your_username";
-        String password = "your_password";
+        String url = "jdbc:mysql://localhost:3306/mydatabase?useSSL=false"; // Replace with your database name
+        String username = "root";
+        String password = "Sayali@123";
 
         // JDBC connection object
         Connection connection = null;
@@ -24,9 +24,9 @@ public class InsertDataExample {
             PreparedStatement preparedStatement = connection.prepareStatement(insertSQL);
 
             // Set values for the placeholders in the SQL statement
-            preparedStatement.setString(1, "john_doe");
-            preparedStatement.setString(2, "john@example.com");
-            preparedStatement.setString(3, "password123");
+            preparedStatement.setString(1, "surajsahani");
+            preparedStatement.setString(2, "surajsahani@gmail.com");
+            preparedStatement.setString(3, "root");
 
             // Execute the SQL statement to insert the data
             int rowsAffected = preparedStatement.executeUpdate();
