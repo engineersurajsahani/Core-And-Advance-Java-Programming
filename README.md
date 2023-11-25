@@ -1,2 +1,2 @@
-# Core-Java-Programming
-Core Java Programming In Disha Computer Institute
+# Core-And-Advance-Java-Programming
+Core And Advance Java Programming In Disha Computer Institute
