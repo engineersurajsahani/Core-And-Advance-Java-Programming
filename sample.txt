@@ -1,2 +1,0 @@
-Hello, FileWriter!
-This is a test.
